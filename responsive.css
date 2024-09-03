@@ -16,7 +16,10 @@
     .banner{
         flex-direction: column;
     }
-    .item-container-routine{
+    .item-container-routine  {
+        flex-direction: column;
+    }
+    .run-extra{
         flex-direction: column;
     }
 

@@ -32,7 +32,7 @@ main{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
 }
-img {
+ .routine img {
     margin-top: 100px;
     border-radius: 50%;
     
@@ -64,9 +64,9 @@ img {
     justify-content: space-between;
     gap: 30px;
    align-items: center;
-    border: 2px solid red;
    padding: 30px;
-    background: fixed rgba(34, 34, 34, 1);
+    background: rgba(34, 34, 34, 1);
+    border-radius: 10px;
   
 }
 .run-tittle{
@@ -81,6 +81,27 @@ img {
     margin-bottom: 10px;
     
 }
-.run-text{
-    background:rgba(34, 34, 34, 1);
+
+
+.team-mate{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.team-member-container{
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+    background:  rgba(34, 34, 34, 1);
+    border-radius: 10px; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.team-member-container img {
+   
+    height: 220px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 10px;
 }
