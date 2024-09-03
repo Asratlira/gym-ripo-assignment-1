@@ -13,14 +13,39 @@
         display: none;
         
     }
+    
+    
     .banner{
         flex-direction: column;
+    }
+    
     }
     .item-container-routine  {
         flex-direction: column;
     }
+    .routine-text{
+        padding: 30px;
+    }
+    .routine-element-description{
+        padding: 25px;
+    }
     .run-extra{
         flex-direction: column;
+    }
+    .run-text{
+        text-align: center;
+        padding: 10px;
+    }
+    .run-img-container{
+        padding: 20px;
+    }
+    .team-member-container{
+        grid-template-columns: auto;
+        justify-items: center;
+        gap: 10px;
+    }
+    .team-mate{
+        padding: 20px;
     }
 
 
