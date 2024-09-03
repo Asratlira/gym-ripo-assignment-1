@@ -39,13 +39,17 @@
     .run-img-container{
         padding: 20px;
     }
-    .team-member-container{
-        grid-template-columns: auto;
-        justify-items: center;
+    .team-member-container {
+        
+        display: inline-block; 
+        padding: 10px 50px;  
         gap: 10px;
     }
     .team-mate{
         padding: 20px;
+    }
+    .foot{
+        flex-direction: column;
     }
 
 
